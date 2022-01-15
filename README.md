@@ -14,6 +14,10 @@ the top-level directory(metrics-server) of this repository:
  
 ```console
 $ kubectl apply -f deploy/1.8+/
+
+or
+
+$ kubectl apply-f https://github.com/kubernetes-sigs/metrics-server/release/latest/download/componets.yml
 ```
 
 ## Usage
